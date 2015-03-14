@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "DEHbot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
@@ -85,7 +85,7 @@
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
         ],
-        afkpositionCheck: 15,
+        afkpositionCheck: 50,
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
@@ -94,13 +94,13 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: null,
-        themeLink: null,
-        fbLink: null,
-        youtubeLink: null,
+        rulesLink: "http://bit.ly/1GDqGtJ",
+        themeLink: "http://bit.ly/1GDqGtJ",
+        fbLink: "https://www.facebook.com/pages/DEH-Music/500655356704826?fref=ts",
+        youtubeLink: "https://www.youtube.com/user/DEHMusicChannel",
         website: null,
-        intervalMessages: [],
-        messageInterval: 5,
+        intervalMessages: ["♦DEH Music♦ (Dubstep / Electro / House). Welcome to our room. Feel free to play your favorite tunes and join the conversation. Please consider reading our rules: http://bit.ly/1GDqGtJ", "If you lost your place in the waitlist type !dc."],
+        messageInterval: 7,
         songstats: true,
         commandLiteral: "!",
         blacklists: {
